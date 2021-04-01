@@ -1,0 +1,181 @@
+html{
+    box-sizing: inherit;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: content-box;
+}
+
+section{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    font-family: "Montserrat" , sans-serif;
+
+}
+
+.header{
+    width: 100%;
+    background-color: #FED100;
+    padding-bottom: 104px;
+}
+
+.movee{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    width: 1000px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 150px;
+}
+.box1 a{
+    text-decoration: none;
+    color: #333333;
+}
+.movee{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.menu a{
+    font-weight: 500;
+}
+
+.menu {
+    position: relative;
+    z-index: 99;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu a:hover{
+    font-weight: bold;
+}
+
+.number-phone{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+}
+
+.box2{
+    padding:20px 150px;
+    display: flex;
+}
+
+.box2in1{
+    width: 500px;
+}
+.box2in1 h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 65px;
+    color: #333333;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.box2in1 h2{
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 10px;;
+}
+
+.zakaz{
+    position: relative;
+    width: 220px;
+    height: 50px;
+    outline: none;
+    border:none;
+    background-color: #FF352B;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-top: 40px;
+    z-index: 5;
+}
+
+.button-click{
+    position: relative;
+}
+.bcg-line{
+    width: 230px;
+    height: 50px;
+    border:2px solid white;
+    position: absolute;
+    top:48px;
+    right: 260px;
+    z-index: 1;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.zakaz a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.zakaz a:hover{
+    color:black;
+}
+
+.send{
+    width: 500px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.things{
+    display: flex;
+    align-items: center;
+}
+
+.things img{
+    margin-right: 7px;;
+}
+
+.things span{
+    color: #333333;
+    font-size: 15px;
+}
+
+.box2in2{
+    position: relative;
+}
+
+.man{
+    position: absolute;
+    top:-70px;
+    z-index: 2;
+}
+
+.car{
+    position: absolute;
+    left: 200px;
+   
+}
